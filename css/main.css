@@ -214,7 +214,7 @@ footer {
 /* grid */
 
 .grid-full {
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 .grid-half {
@@ -318,6 +318,16 @@ footer {
 
 .slick-next:before .slick-prev:before {
   color: black;
+
 }
 
+.slick-next {
+  right: 10px;
+  z-index: 1000;
+}
+
+.slick-prev {
+  left: 10px;
+  z-index: 1000;
+}
 
